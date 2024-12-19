@@ -1,5 +1,5 @@
-function task1(arr, filter, transform) {
-    return arr.filter(filter).map(transform);
+function task1(arr, fltr, transform) {
+    return arr.filter(fltr).map(transform);
 }
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
