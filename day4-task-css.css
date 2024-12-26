@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
