@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">My Weather APP</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" id="city_type" placeholder="Type any City" aria-label="Search">
+            <button class="btn btn-outline-success" id="getCity" type="button">Search</button>
+          </form>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <div class="row mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal"><span id ="city"></span></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><span id ="temp"></span></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Wind speed(kmph) is: <span id="wind_kmph"></span></li>
+                                <li>Humidity is: <span id="humidity"></span></li>
+                              </ul>
+                           </div>
+                    </div>
+                </div>
+            </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
